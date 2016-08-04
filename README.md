@@ -1,4 +1,4 @@
-gmapsdistance
+Rtauchen
 =======
 [![Build Status](https://travis-ci.org/rodazuero/Rtauchen.png)](https://travis-ci.org/rodazuero/Rtauchen) 
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/Rtauchen)](https://cran.r-project.org/package=Rtauchen)
