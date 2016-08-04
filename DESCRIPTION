@@ -1,0 +1,11 @@
+Package: Rtauchen
+Type: Package
+Title: Distance and Travel Time Between Two Points from Google Maps
+Version: 2.0
+Date: 2016-08-01
+Author: David Zarruk Valencia & Rodrigo Azuero Melo
+URL: https://github.com/rodazuero/Rtauchen
+Maintainer: David Zarruk Valencia <davidzarruk@gmail.com>
+Description: Discretize AR process. 
+License: GPL (>= 2)
+Imports: Rcpp
