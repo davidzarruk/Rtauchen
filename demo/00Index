@@ -1,2 +1,2 @@
-example1		Description of example 1
-example2		Description of example 2
+example1		This example computes the transition probability matrix of the finite-state Markov chain approximation of an AR(1) process with: n = 5 (points in the Markov chain), ssigma = 0.02, lambda = 0.95, m = 3
+example2		This example computes the grid of points of the finite-state Markov chain approximation of an AR(1) process with: n = 5 (points in the Markov chain), ssigma = 0.02, lambda = 0.95, m = 3

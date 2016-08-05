@@ -8,5 +8,5 @@ URL: https://github.com/rodazuero/Rtauchen
 Maintainer: David Zarruk Valencia <davidzarruk@gmail.com>
 Description: Method for discretizing AR(1) processes by choosing a finite set of points and transition probabilities, so the resulting finite-state Markov Chain mimics the original process. 
 License: GPL (>= 2)
-Imports:
+Imports: stats, pnorm
 Packaged: 2016-08-04 21:56:05 UTC; rodrigoazuero
