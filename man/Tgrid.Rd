@@ -3,16 +3,16 @@
 \alias{Tgrid}
 \title{Tgrid}
 \usage{
-Tgrid(n, ssigma, llambda, m)
+Tgrid(ne, ssigma_eps, llambda_eps, m)
 }
 \arguments{
-\item{n}{Number of points of the grid of the finite-state Markov chain that mimics the AR(1) process.}
+\item{ne}{Number of points of the grid of the finite-state Markov chain that mimics the AR(1) process}
 
-\item{ssigma}{Standard deviation of exogenous shock in the AR(1) process.}
+\item{ssigma_eps}{Standard deviation of exogenous shock in the AR(1) process}
 
-\item{llambda}{Persistence parameter of the AR(1) process.}
+\item{llambda_eps}{Persistence parameter of the AR(1) process}
 
-\item{m}{Tauchen parameter for the width of the process (number of standard deviations of the AR(1) process covered by the grid).}
+\item{m}{Tauchen parameter for the width of the process (number of standard deviations of the AR(1) process covered by the grid)}
 }
 \value{
 An array with the grid points of a finite-state Markov chain which approximates the original AR(1) process.

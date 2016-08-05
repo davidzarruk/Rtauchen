@@ -1,12 +1,13 @@
 Package: Rtauchen
 Type: Package
-Title: Discretization of AR(1) processes using the method by Tauchen (1986)
+Title: Discretization of AR(1) Processes using the Method by Tauchen
+        (1986)
 Version: 1.0
 Date: 2016-08-01
 Author: David Zarruk Valencia & Rodrigo Azuero Melo
-URL: https://github.com/rodazuero/Rtauchen
+URL: https://github.com/davidzarruk/Rtauchen
 Maintainer: David Zarruk Valencia <davidzarruk@gmail.com>
-Description: Method for discretizing AR(1) processes by choosing a finite set of points and transition probabilities, so the resulting finite-state Markov Chain mimics the original process. 
+Description: Description: Discretize AR process. 
 License: GPL (>= 2)
-Imports: stats, pnorm
-Packaged: 2016-08-04 21:56:05 UTC; rodrigoazuero
+Imports: stats
+Packaged: 2016-08-05 21:47:04 UTC; rodrigoazuero

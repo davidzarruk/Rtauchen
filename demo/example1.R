@@ -5,7 +5,7 @@ library(Rtauchen)
 # ssigma = 0.02
 # lambda = 0.95
 # m = 3
-results = Tmatrix(5, 0.02, 0.98, 3)
+results = Rtauchen(5, 0.02, 0.98, 3)
 
 results
 #               [,1]         [,2]         [,3]         [,4]         [,5]

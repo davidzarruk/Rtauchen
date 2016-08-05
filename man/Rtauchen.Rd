@@ -6,22 +6,22 @@
 Rtauchen(ne, ssigma_eps, llambda_eps, m)
 }
 \arguments{
-\item{ne}{Number of points in grid}
+\item{ne}{Number of points of the grid of the finite-state Markov chain that mimics the AR(1) process}
 
-\item{ssigma_eps}{Standard deviation of exogenous shock}
+\item{ssigma_eps}{Standard deviation of exogenous shock in the AR(1) process}
 
-\item{llambda_eps}{persistence parameter}
+\item{llambda_eps}{Persistence parameter of the AR(1) process}
 
-\item{m}{Tauchen parameter}
+\item{m}{Tauchen parameter for the width of the process (number of standard deviations of the AR(1) process covered by the grid)}
 }
 \value{
-a matrix with the corresponding transition matrix
+A matrix with the corresponding to the transition matrix of the finite-state Markov chain that approximates the AR(1) process
 }
 \description{
-Discretize AR1 process
+This function generates a matrix of transition probabilites of a finite-state Markov chain that mimics an AR(1) process with persistence parameter llamda, standard deviation ssigma and a fixed parameter m.
 }
 \details{
-Discretize AR process
+See Tauchen (1986) for details.
 }
 \examples{
 results = Rtauchen(2, 1.0e-5, 0.1,0.4)
