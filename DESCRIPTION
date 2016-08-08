@@ -1,13 +1,13 @@
 Package: Rtauchen
 Type: Package
-Title: Discretization of AR(1) Processes using the Method by Tauchen
-        (1986)
+Title: Discretization of AR(1) Processes
 Version: 1.0
 Date: 2016-08-01
 Author: David Zarruk Valencia & Rodrigo Azuero Melo
 URL: https://github.com/davidzarruk/Rtauchen
 Maintainer: David Zarruk Valencia <davidzarruk@gmail.com>
-Description: Description: Discretize AR process. 
+Description: Discretize AR(1) process following Tauchen (1986) <http://www.sciencedirect.com/science/article/pii/0165176586901680>. A discrete Markov chain that approximates in the sense of weak convergence a continuous-valued univariate Autoregressive process of first order is generated. It is a popular method used in economics and in finance. 
 License: GPL (>= 2)
 Imports: stats
-Packaged: 2016-08-05 21:47:04 UTC; rodrigoazuero
+Packaged: 2016-08-07 19:50:26 UTC; rodrigoazuero
+NeedsCompilation: no
